@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # 301 Permanent Redirect duplicate and retired programmatic routes
+  RewriteRule ^cm-to-inches/?$ https://www.cmtoinches.uk/ [R=301,L]
+  RewriteRule ^[0-9]+-cm-to-inches/?$ https://www.cmtoinches.uk/ [R=301,L]
+  RewriteRule ^[0-9]+-feet-in-cm/?$ https://www.cmtoinches.uk/ [R=301,L]
+  RewriteRule ^ring-shoe-size-cm/?$ https://www.cmtoinches.uk/ring-size-in-cm/ [R=301,L]
+
+  # Standard SPA fallback for other routes
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.html [L]
+</IfModule>

@@ -1,0 +1,12 @@
+{
+  "redirects": [
+    { "source": "/cm-to-inches", "destination": "/", "permanent": true },
+    { "source": "/cm-to-inches/", "destination": "/", "permanent": true },
+    { "source": "/ring-shoe-size-cm", "destination": "/ring-size-in-cm/", "permanent": true },
+    { "source": "/ring-shoe-size-cm/", "destination": "/ring-size-in-cm/", "permanent": true },
+    { "source": "/:num(\\d+)-cm-to-inches", "destination": "/", "permanent": true },
+    { "source": "/:num(\\d+)-cm-to-inches/", "destination": "/", "permanent": true },
+    { "source": "/:num(\\d+)-feet-in-cm", "destination": "/", "permanent": true },
+    { "source": "/:num(\\d+)-feet-in-cm/", "destination": "/", "permanent": true }
+  ]
+}
