@@ -1,11 +1,139 @@
-CM to Inches Converter (cmtoinches.uk)Live Website: https://www.cmtoinches.uk/cmtoinches.uk is a fast, client-side metric-to-imperial measurement converter built for everyday UK and international unit conversions. Every calculation runs locally in the browser using the exact international standard ratio (1 inch = 2.54 cm, 1 foot = 30.48 cm) with decimal output, UK 1/16" carpentry fractions, and an interactive visual ruler.Key FeaturesInstant Client-Side Calculations: Zero server round-trips; all conversions run locally in the browser.Real-Time Adaptive Visual Ruler: Interactive centimetre and inch scale (up to 100 cm) with zoom presets (10, 20, 50, 100).UK Carpentry Fractions: Automatic nearest 1/16" fractional inch output alongside exact decimal values.Complete Reference Charts: Quick-lookup tables on converter pages plus a dedicated Master Unit Conversion Chart covering values from 1 to 1500.UK-Focused Utility Hubs: Dedicated tools for ISO 216 paper sizes (A0–A15 in inches, cm, mm, and 300 DPI print pixels), UK alphabetical ring sizes (A–Z), wrist sizing, and UK child/adult shoe sizes in cm.Live Tools & PagesTool / PageURLDescriptionCM to Inches Convertercmtoinches.ukMain calculator with real-time ruler, 1/16" fractions, and reference tablesInches to CM Convertercmtoinches.uk/inches-to-cm/Reverse imperial-to-metric converter with UK screen, frame, and waist tablesFeet to CM Convertercmtoinches.uk/feet-to-cm/Height and length conversion from feet and inches to centimetresCM to Feet Convertercmtoinches.uk/cm-to-feet/Metric height conversion into feet and inchesMeters to Feet Convertercmtoinches.uk/meters-to-feet/Metre-to-foot length converterFeet to Meters Convertercmtoinches.uk/feet-to-meters/Foot-to-metre length converterMM to Inches Convertercmtoinches.uk/mm-to-inches/Millimetre-to-inch woodworking and precision converterInches to MM Convertercmtoinches.uk/inches-to-mm/Inch-to-millimetre precision converterPaper Size Converter (A0–A15)cmtoinches.uk/paper-size-in-inches/ISO 216 paper dimensions in inches, cm, mm, and print pixels (72–600 DPI)Ring, Wrist & UK Shoe Size Convertercmtoinches.uk/ring-shoe-size-cm/UK A–Z ring chart, printable 1:1 sizer scale, wrist fit, and UK shoe sizesMaster Unit Conversion Charts (1–1500)cmtoinches.uk/unit-conversion-chart/8 complete lookup tables for cm, mm, inches, and feetHTML Sitemapcmtoinches.uk/sitemap/Directory of active calculators, reference charts, and policy pagesCore Conversion FormulasInches      = Centimetres ÷ 2.54
+CM to Inches Converter (cmtoinches.uk)
+
+Live Website: https://www.cmtoinches.uk/
+
+cmtoinches.uk is a fast, client-side metric-to-imperial measurement converter built for everyday UK and international unit conversions. Every calculation runs locally in the browser using the exact international standard ratio (1 inch = 2.54 cm, 1 foot = 30.48 cm) with decimal output, UK 1/16" carpentry fractions, and an interactive visual ruler.
+
+Key Features
+
+Instant Client-Side Calculations: Zero server round-trips; all conversions run locally in the browser.
+
+Real-Time Adaptive Visual Ruler: Interactive centimetre and inch scale (up to 100 cm) with zoom presets (10, 20, 50, 100).
+
+UK Carpentry Fractions: Automatic nearest 1/16" fractional inch output alongside exact decimal values.
+
+Complete Reference Charts: Quick-lookup tables on converter pages plus a dedicated Master Unit Conversion Chart covering values from 1 to 1500.
+
+UK-Focused Utility Hubs: Dedicated tools for ISO 216 paper sizes (A0–A15 in inches, cm, mm, and 300 DPI print pixels), UK alphabetical ring sizes (A–Z), wrist sizing, and UK child/adult shoe sizes in cm.
+
+Live Tools & Pages
+
+Tool / Page
+
+URL
+
+Description
+
+CM to Inches Converter
+
+cmtoinches.uk
+
+Main calculator with real-time ruler, 1/16" fractions, and reference tables
+
+Inches to CM Converter
+
+cmtoinches.uk/inches-to-cm/
+
+Reverse imperial-to-metric converter with UK screen, frame, and waist tables
+
+Feet to CM Converter
+
+cmtoinches.uk/feet-to-cm/
+
+Height and length conversion from feet and inches to centimetres
+
+CM to Feet Converter
+
+cmtoinches.uk/cm-to-feet/
+
+Metric height conversion into feet and inches
+
+Meters to Feet Converter
+
+cmtoinches.uk/meters-to-feet/
+
+Metre-to-foot length converter
+
+Feet to Meters Converter
+
+cmtoinches.uk/feet-to-meters/
+
+Foot-to-metre length converter
+
+MM to Inches Converter
+
+cmtoinches.uk/mm-to-inches/
+
+Millimetre-to-inch woodworking and precision converter
+
+Inches to MM Converter
+
+cmtoinches.uk/inches-to-mm/
+
+Inch-to-millimetre precision converter
+
+Paper Size Converter (A0–A15)
+
+cmtoinches.uk/paper-size-in-inches/
+
+ISO 216 paper dimensions in inches, cm, mm, and print pixels (72–600 DPI)
+
+Ring, Wrist & UK Shoe Size Converter
+
+cmtoinches.uk/ring-shoe-size-cm/
+
+UK A–Z ring chart, printable 1:1 sizer scale, wrist fit, and UK shoe sizes
+
+Master Unit Conversion Charts (1–1500)
+
+cmtoinches.uk/unit-conversion-chart/
+
+8 complete lookup tables for cm, mm, inches, and feet
+
+HTML Sitemap
+
+cmtoinches.uk/sitemap/
+
+Directory of active calculators, reference charts, and policy pages
+
+Core Conversion Formulas
+
+Inches      = Centimetres ÷ 2.54
 Centimetres = Inches × 2.54
 Centimetres = Feet × 30.48
 Millimetres = Inches × 25.4
-All conversion factors follow the International Yard and Pound Agreement of 1959 (1 international inch = 2.54 cm exactly).Repository & DeploymentThis site is published as a static web project through GitHub.# Clone the repository
+
+
+All conversion factors follow the International Yard and Pound Agreement of 1959 (1 international inch = 2.54 cm exactly).
+
+Repository & Deployment
+
+This site is published as a static web project through GitHub.
+
+# Clone the repository
 git clone https://github.com/[your-username]/[your-repo-name].git
 cd [your-repo-name]
 
 # Preview locally using any static file server
 python3 -m http.server 8000
-Push updates to the main branch to trigger automatic static deployment to https://www.cmtoinches.uk/.Policies & ContactAbout Us: https://www.cmtoinches.uk/about-us/Privacy Policy (UK GDPR & EU GDPR): https://www.cmtoinches.uk/privacy-policy/Cookie Policy (UK PECR): https://www.cmtoinches.uk/cookie-policy/Terms & Conditions: https://www.cmtoinches.uk/terms-and-conditions/Legal Disclaimer: https://www.cmtoinches.uk/disclaimer/Contact & Support: https://www.cmtoinches.uk/contact-us/ | support@cmtoinches.ukDisclaimerAll conversions, reference charts, and sizing guides on cmtoinches.uk are provided for general informational, educational, and DIY reference only. For critical engineering, construction, or medical applications, always verify measurements against official standards.
+
+
+Push updates to the main branch to trigger automatic static deployment to https://www.cmtoinches.uk/.
+
+Policies & Contact
+
+About Us: https://www.cmtoinches.uk/about-us/
+
+Privacy Policy (UK GDPR & EU GDPR): https://www.cmtoinches.uk/privacy-policy/
+
+Cookie Policy (UK PECR): https://www.cmtoinches.uk/cookie-policy/
+
+Terms & Conditions: https://www.cmtoinches.uk/terms-and-conditions/
+
+Legal Disclaimer: https://www.cmtoinches.uk/disclaimer/
+
+Contact & Support: https://www.cmtoinches.uk/contact-us/ | support@cmtoinches.uk
+
+Disclaimer
+
+All conversions, reference charts, and sizing guides on cmtoinches.uk are provided for general informational, educational, and DIY reference only. For critical engineering, construction, or medical applications, always verify measurements against official standards.
